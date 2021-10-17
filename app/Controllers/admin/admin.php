@@ -42,7 +42,7 @@ class admin extends BaseController
         if (empty($_SESSION['user'])) {
             return redirect()->to(base_url() . '/admin/login');
         }
-         if($_SESSION['user']['role_id'] == 1){
+        if($_SESSION['user']['role_id'] == 1){
             $data['message'] = 'success' ;
         } else {
             $data['message'] = 'fail';

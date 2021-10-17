@@ -38,21 +38,21 @@
             <div class="login-box card">
                 <div class="card-body">
                     <form class="form-horizontal form-material" id="loginform" action="<?php echo base_url().'/admin/login'?>" method="POST">
-                        <h3 class="text-center m-b-20">Sign In</h3>
+                        <h3 class="text-center m-b-20">Đăng nhập</h3>
                         <div class="form-group ">
                             <div class="col-xs-12">
-                                <input class="form-control" type="text" required="" placeholder="Username" name="username" id="username"> </div>
+                                <input class="form-control" type="text" required="" placeholder="Tài khoản" name="username" id="username"> </div>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <input class="form-control" type="password" required="" placeholder="Password" name="password" id="password"> </div>
+                                <input class="form-control" type="password" required="" placeholder="Mật khẩu" name="password" id="password"> </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
                                 <div class="d-flex no-block align-items-center">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Remember me</label>
+                                        <label class="custom-control-label" for="customCheck1">Ghi nhớ đăng nhập</label>
                                     </div> 
                                     
                                 </div>

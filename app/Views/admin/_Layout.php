@@ -173,9 +173,21 @@
                     <ul id="sidebarnav">
                         <li class="nav-small-cap">--- MAIN MENU</li>
                         <li>
-                            <a class="waves-effect waves-dark" href="<?= base_url() ?>/admin" aria-expanded="false">
-                                <i class="icon-speedometer"></i>
-                                <span class="hide-menu">Dashboard</span>
+                            <a class="waves-effect waves-dark" href="<?= base_url() ?>/admin/report" aria-expanded="false">
+                                <i class="ti-receipt"></i>
+                                <span class="hide-menu">Doanh thu</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-dark" href="<?= base_url() ?>/admin/report/selling" aria-expanded="false">
+                                <i class="ti-receipt"></i>
+                                <span class="hide-menu">Bán chạy</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-dark" href="<?= base_url() ?>/admin/report/inventory" aria-expanded="false">
+                                <i class="ti-receipt"></i>
+                                <span class="hide-menu">Tồn kho</span>
                             </a>
                         </li>
                         <li> <a class="waves-effect waves-dark" href="<?= base_url() ?>/admin/mailbox" aria-expanded="false"><i class="icon-envelope"></i><span class="hide-menu">Mailbox</span></a>
@@ -419,8 +431,8 @@
 
 
     <!-- Js phan trang  -->
-    <script src="<?= base_url() ?>/public/admin/assets/node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="<?= base_url() ?>/public/admin/assets/node_modules/datatables.net-bs4/js/dataTables.responsive.min.js"></script>
+    <script src="<?= base_url() ?>/public/admin/assets/node_modules/datatables.net/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url() ?>/public/admin/assets/node_modules/datatables.net-bs4/dataTables.responsive.min.js"></script>
 
 
     <script>
