@@ -184,6 +184,8 @@
                                 <span class="hide-menu">Bán chạy</span>
                             </a>
                         </li>
+                            
+                        </style>>
                         <li>
                             <a class="waves-effect waves-dark" href="<?= base_url() ?>/admin/report/inventory" aria-expanded="false">
                                 <i class="ti-receipt"></i>
