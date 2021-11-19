@@ -12,7 +12,7 @@
                         <label class="col-md-12" for="example-text3">Người Nhận</span>
                         </label>
                         <div class="col-md-12">
-                             <input type="hidden" id="id" name="id_hidden" value="<?= $id?>">
+                            <input type="hidden" id="id" name="id_hidden" value="<?= $id?>">
                             <input type="text" id="example-text3" name="client_name" class="form-control" placeholder="" value="<?= $info['fullname']?>">
                         </div>
                     </div>

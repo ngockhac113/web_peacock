@@ -20,17 +20,17 @@ class Checkout extends BaseController
         }
         $user_id= $_SESSION['customer']["id"];
         if ($this->request->getMethod() == 'post') {
-            //phần cấu hình gửi mail
-            // $mail = new PHPMailer;
-            // $mail->isSMTP();                                      // Set mailer to use SMTP
-            // $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-            // $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            // $mail->Username = 'cobetenlinh@gmail.com';                 // SMTP username
-            // $mail->Password = 'hruvgkvuuaxjwbcz';                           // SMTP password
-            // $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-            // $mail->Port = 587;
-            // $mail->CharSet = "UTF-8";              
-            // $content='';
+            // phần cấu hình gửi mail
+            $mail = new PHPMailer;
+            $mail->isSMTP();                                      // Set mailer to use SMTP
+            $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+            $mail->SMTPAuth = true;                               // Enable SMTP authentication
+            $mail->Username = 'cobetenlinh@gmail.com';                 // SMTP username
+            $mail->Password = 'hruvgkvuuaxjwbcz';                           // SMTP password
+            $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+            $mail->Port = 587;
+            $mail->CharSet = "UTF-8";              
+            $content='';
 
 
             $cPay= $this->request->getVar('cPay');
